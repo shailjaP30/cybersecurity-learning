@@ -1,0 +1,36 @@
+REGULAR EXPRESSIONS (Searches for patterns of text )
+
+
+[] : to enclose characters or range of characters we want to match 
+
+^ : used to exclude char
+
+. : used as a blank {eg - a.c will give acc, abc, a0c } BUT a\.c will match just a.c
+
+? : optional character 
+
+{} : is used to match repeating chars 
+	{12} - exactly 12 times.
+	{1,5} - 1 to 5 times.
+	{2,} - 2 or more times.
+	* - 0 or more times.
+	+ - 1 or more times.
+
+^ : starts with
+
+$ : end with
+
+() : define grps by enclosing a pattern {eg- (day){5} will give -daydaydaydayday}
+
+| : either/or situation  {eg- during the (day|night)}
+
+
+\d : matches a digit, like 9
+\D : matches a non-digit, like A or @
+\w : matches an alphanumeric character, like a or 3 ( _ being an exception)
+\W : matches a non-alphanumeric character, like ! or #
+\s : matches a whitespace character (spaces, tabs, and line breaks)
+\S : matches everything else (alphanumeric characters and symbols)
+
+
+
